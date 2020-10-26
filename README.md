@@ -16,7 +16,7 @@ For each assignment, you will need:
 The rest of the files are auxiliary files to compile the `pdf`, which you **won't need** to complete the assignment.
 
 ## Contents
-1. [Linear Regression]{https://github.com/azukacchi/AndrewNg-MLCoursera/tree/main/Exercise1}
-2. [Logistic Regression]{https://github.com/azukacchi/AndrewNg-MLCoursera/tree/main/Exercise2}
+1. [Linear Regression](https://github.com/azukacchi/AndrewNg-MLCoursera/tree/main/Exercise1)
+2. [Logistic Regression](https://github.com/azukacchi/AndrewNg-MLCoursera/tree/main/Exercise2)
 
 
