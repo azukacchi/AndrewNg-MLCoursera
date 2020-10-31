@@ -57,7 +57,8 @@
 %%%%%%%%%%%%%%%%%
 \title{Exercise 2 - Logistic Regression}
 \author{Azka NA}
-\date{\today}
+%\date{\today}
+\date{October 26, 2020}
 
 \begin{document}
 \maketitle
@@ -174,7 +175,7 @@ For large positive values of x, the sigmoid should be close to 1, while for larg
 Now you will implement the cost function and gradient for logistic regression. Recall that the cost function in logistic regression is
 
 \begin{align}
-  J(\theta) & = \frac{1}{m}\sum_{i=1}^m{\big[-y^{(i)}log(h_\theta(x^{(i)}))-(1-y^{(i)}log(1-h_\theta(x^{(i)})))\big]}
+  J(\theta) & = \frac{1}{m}\sum_{i=1}^m{\big[-y^{(i)}log(h_\theta(x^{(i)}))-(1-y^{(i)})log(1-h_\theta(x^{(i)}))\big]}
 \end{align}
 
 which can be written as \texttt{costFunction}:
@@ -387,7 +388,7 @@ Now you will implement code to compute the cost function and gradient for regula
 Recall that the regularized cost function in logistic regression is
 
 \begin{align}
-  J(\theta) = \frac{1}{m}\sum_{i=1}^m{\big[-y^{(i)}log(h_\theta(x^{(i)}))-(1-y^{(i)}log(1-h_\theta(x^{(i)})))\big]} + \frac{\lambda}{2m}\sum_{j=1}^n{\theta_j^2}
+  J(\theta) = \frac{1}{m}\sum_{i=1}^m{\big[-y^{(i)}log(h_\theta(x^{(i)}))-(1-y^{(i)})log(1-h_\theta(x^{(i)}))\big]} + \frac{\lambda}{2m}\sum_{j=1}^n{\theta_j^2}
 \end{align}
 
 \begin{lstlisting}[language=Python]
