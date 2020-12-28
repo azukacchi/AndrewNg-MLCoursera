@@ -19,5 +19,7 @@ The rest of the files are auxiliary files to compile the `pdf`, which you **won'
 1. [Linear Regression](https://github.com/azukacchi/AndrewNg-MLCoursera/tree/main/Exercise1)
 2. [Logistic Regression](https://github.com/azukacchi/AndrewNg-MLCoursera/tree/main/Exercise2)
 3. [Multi-class Classification and Neural Networks](https://github.com/azukacchi/AndrewNg-MLCoursera/tree/main/Exercise3)
+4. Neural Networks Learning (skipped, too hard...)
+5. [Regularized Linear Regression and Bias vs Variance](https://github.com/azukacchi/AndrewNg-MLCoursera/tree/main/Exercise5)
 
 
